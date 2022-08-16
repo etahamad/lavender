@@ -23,9 +23,9 @@
 
 # Inherit Redmi Note 7 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_lavender.mk
+    $(LOCAL_DIR)/pixys_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_lavender-user \
-    xdroid_lavender-userdebug \
-    xdroid_lavender-eng
+    pixys_lavender-user \
+    pixys_lavender-userdebug \
+    pixys_lavender-eng
