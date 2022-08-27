@@ -71,10 +71,6 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
 	$(DEVICE_PATH)/sensors/elliptic.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/elliptic.conf
 
-# Shim
-PRODUCT_PACKAGES += \
-    camera.sdm660_shim
-
 # Vibrator
 PRODUCT_PACKAGES += \
 	vendor.qti.hardware.vibrator@1.2-service
